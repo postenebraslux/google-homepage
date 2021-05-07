@@ -30,15 +30,15 @@ body {
 #navbar {
     display: flex;
     justify-content: flex-end;
-    padding: 1em;
+    padding: 1rem;
 }
 
 #navbar span{
-    margin: auto 0.5em;
+    margin: auto 0.5rem;
 }
 
 #app-icon {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     user-select: none;
     cursor: pointer;
 }
@@ -50,9 +50,9 @@ body {
 #access-btn {
     background-color: #4285F4;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: bold;
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     user-select: none;
 }
@@ -62,16 +62,16 @@ body {
 /* LOGO */
 
 #logo-section {
-    margin: 6em auto 0em;
+    margin: 6rem auto 0;
     position: relative;
-    width: 20em;
+    width: 20rem;
 }
 
 #logo-section p {
     color: #4285F4;
     position: absolute;
-    right: 1em;
-    bottom: 0.35em;
+    right: 1rem;
+    bottom: 0.35rem;
     user-select: none;
 }
 
@@ -81,12 +81,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1em auto;
-    padding: 0.7em 1em 0.7em 1em;
+    margin: 1rem auto;
+    padding: 0.7rem 1rem 0.7rem 1rem;
     background-color: white;
     border: 1px solid #dfe1e5;
     border-radius: 50px;
-    width: max-content;
+    width: fit-content;
 }
 
 #search-wrapper:hover {
@@ -95,12 +95,12 @@ body {
 }
 
 #search-wrapper span {
-    margin: auto 0.5em;
+    margin: auto 0.5rem;
     user-select: none;
 }
 
 #search-icon {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 600;
     color: rgba(0, 0, 0, .35)
 }
@@ -116,14 +116,14 @@ body {
 }
 
 #search-wrapper img {
-    margin: auto 0.35em;
-    height: 1.2em;
+    margin: auto 0.35rem;
+    height: 1.2rem;
     cursor: pointer;
 }
 
 #search-wrapper #icon-blue{
     color: #4285F4;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 500;
     cursor: pointer;
 }
@@ -131,20 +131,24 @@ body {
 /* SUB-SECTION */
 
 #sub-section {
-    margin: 2.5em 1em;
+    margin: 2.5rem 1rem;
     display: flex;
     justify-content: center;
     flex-shrink: 1;
-    font-size: 0.95em;
+    font-size: 0.95rem;
     color: rgba(0, 0, 0, 0.75);
 }
 
 #sub-section span {
-    margin: auto 0.5em;
+    margin: auto 0.5rem;
 }
 
 #shield-icon {
-    height: 3em;
+    height: 3rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* FOOTER */
@@ -165,7 +169,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 1em;
+    padding: 0 1rem;
     
 }
 
@@ -182,8 +186,4 @@ body {
 
 #footer-left, #footer-right {
     display: flex;
-}
-
-a {
-    text-decoration: none;
 }
